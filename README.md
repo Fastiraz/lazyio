@@ -32,17 +32,20 @@ func main() {
 }
 ```
 
-Output
-go
-Copy code
+### Output
+
+```go
 func Output(s ...string)
+```
+
 The Output function prints text to the standard output (console).
 
 Parameters
-s ...string: Variadic parameter for the text to be printed.
+`s ...string`: Variadic parameter for the text to be printed.
+
 Example
-go
-Copy code
+
+```go
 package main
 
 import (
@@ -52,20 +55,25 @@ import (
 func main() {
 	lazyio.Output("This is an example.", " Hello, World!")
 }
-ReadFile
-go
-Copy code
+```
+
+### ReadFile
+
+```go
 func ReadFile(filename string) ([]string, error)
+```
+
 The ReadFile function reads the contents of a file and returns them as a slice of strings.
 
 Parameters
-filename string: The name of the file to be read.
+`filename string`: The name of the file to be read.
 Returns
-[]string: A slice containing the lines read from the file.
-error: An error if any occurred during file reading.
+`[]string`: A slice containing the lines read from the file.
+`error`: An error if any occurred during file reading.
+
 Example
-go
-Copy code
+
+```go
 package main
 
 import (
@@ -85,4 +93,6 @@ func main() {
 		lazyio.Output(line)
 	}
 }
-Feel free to use and modify the LazyIO package to simplify your I/O operations in Go. Make sure to replace your-package-path with the correct import path for the lazyio package in your code.
+```
+
+Feel free to use and modify the LazyIO package to simplify your I/O operations in Go.
