@@ -23,7 +23,7 @@ package main
 
 import (
 	"fmt"
-	"your-package-path/lazyio"
+	"github.com/Fastiraz/lazyio"
 )
 
 func main() {
@@ -49,7 +49,7 @@ Example
 package main
 
 import (
-	"your-package-path/lazyio"
+	"github.com/Fastiraz/lazyio"
 )
 
 func main() {
@@ -80,7 +80,7 @@ import (
 	"fmt"
 	"log"
 
-	"your-package-path/lazyio"
+	"github.com/Fastiraz/lazyio"
 )
 
 func main() {
